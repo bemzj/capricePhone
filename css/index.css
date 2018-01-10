@@ -1,0 +1,41 @@
+@charset "UTF-8";
+#banner .swiper-slide > img {
+  width: 100%; }
+#banner .swiper-pagination-bullet {
+  background: #999999; }
+#banner .swiper-pagination-bullet-active {
+  border: 1px solid #999999;
+  background: transparent; }
+
+.titles ul li:nth-child(1) {
+  font-family: "微软雅黑";
+  text-align: center;
+  color: #333333;
+  font-size: 0.36rem;
+  margin-bottom: 0.05rem; }
+.titles ul li:nth-child(2) {
+  font-family: "sj";
+  text-align: center;
+  color: #333333;
+  font-size: 0.24rem; }
+
+#aboutUs {
+  padding: 0.6rem 0 0.6rem; }
+  #aboutUs .titles {
+    margin-bottom: 0.4rem; }
+  #aboutUs .aImgBox {
+    width: 73.3%;
+    border: 4px solid #f4f4f4;
+    position: relative;
+    height: 3.65rem; }
+    #aboutUs .aImgBox > img {
+      width: 41.45%;
+      padding: 0.2rem; }
+    #aboutUs .aImgBox .aImgBottom {
+      position: absolute;
+      left: 0.4rem;
+      width: 125.5%; }
+      #aboutUs .aImgBox .aImgBottom > img {
+        width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

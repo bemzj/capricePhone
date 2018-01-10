@@ -1,0 +1,163 @@
+.box {
+  width: 93.4%;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: sj;
+  src: url("../font/sj.otf"); }
+header {
+  width: 100%;
+  height: 0.9rem;
+  background-color: white;
+  box-shadow: 0px 0px 2px 2px rgba(51, 51, 51, 0.2);
+  position: relative; }
+  header nav {
+    padding-top: 0.25rem;
+    position: relative; }
+    header nav .logoImg {
+      height: 0.4rem;
+      margin: 0 auto;
+      display: block; }
+    header nav .searchBox {
+      display: block;
+      position: absolute;
+      top: 0.25rem;
+      right: 0;
+      height: 0.4rem; }
+      header nav .searchBox img {
+        height: 0.4rem; }
+    header nav .moreNav {
+      position: absolute;
+      display: block;
+      top: 0.25rem;
+      left: 0;
+      height: 0.4rem;
+      width: 0.6rem; }
+      header nav .moreNav > img {
+        width: 100%;
+        position: absolute;
+        left: 0; }
+      header nav .moreNav > img:nth-child(1) {
+        top: 0; }
+      header nav .moreNav .rotate45 {
+        transform: rotate(45deg); }
+      header nav .moreNav .rerotate45 {
+        transform: rotate(-45deg); }
+      header nav .moreNav .lineBox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: -webkit-flex;
+        -webkit-align-items: center;
+        -webkit-justify-content: center;
+        -webkit-flex-direction: column; }
+        header nav .moreNav .lineBox > img {
+          width: 100%;
+          margin-top: 0.5px;
+          transition: transform 0.5s;
+          -webkit-transition: transform 0.5s;
+          -moz-transition: transform 0.5s;
+          -ms-transition: transform 0.5s; }
+      header nav .moreNav > img:nth-child(2) {
+        bottom: 0; }
+  header .secondBox {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0%;
+    z-index: 5;
+    padding-bottom: 0.4rem;
+    background-color: #333333;
+    display: none;
+    box-shadow: 0px 1px 1px 1px rgba(51, 51, 51, 0.2); }
+    header .secondBox > ul > li {
+      width: 72.4%;
+      margin: 0 auto;
+      position: relative; }
+      header .secondBox > ul > li > a {
+        width: 100%;
+        line-height: 0.9rem;
+        font-size: 0.26rem;
+        color: white;
+        border-bottom: 1px solid #6e6e6e; }
+      header .secondBox > ul > li .language + img {
+        position: absolute;
+        top: 0.33rem;
+        right: 5%;
+        height: 0.24rem;
+        transition: transform 0.5s;
+        -webkit-transition: transform 0.5s;
+        -moz-transition: transform 0.5s;
+        -ms-transition: transform 0.5s; }
+      header .secondBox > ul > li .languageUp {
+        transform: rotate(90deg); }
+      header .secondBox > ul > li > ul {
+        display: none; }
+      header .secondBox > ul > li > ul > li {
+        width: 100%;
+        border-bottom: 1px solid #6e6e6e;
+        position: relative; }
+        header .secondBox > ul > li > ul > li > a {
+          width: 100%;
+          line-height: 0.9rem;
+          font-size: 0.26rem;
+          color: white;
+          text-indent: 0.5rem; }
+        header .secondBox > ul > li > ul > li > span {
+          display: block;
+          width: 0.18rem;
+          height: 0.18rem;
+          position: absolute;
+          top: 0.36rem;
+          left: 0.16rem;
+          border: 1px solid white;
+          border-radius: 50%;
+          margin: -1px 0 0 -1px; }
+      header .secondBox > ul > li > ul > li:nth-last-child(1) {
+        border-bottom: 0px; }
+  header .searchOut {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    padding: 0.2rem 0;
+    background-color: #dcdbdb;
+    display: none; }
+    header .searchOut .searchIn {
+      height: 0.6rem;
+      background-color: white;
+      position: relative; }
+      header .searchOut .searchIn input {
+        display: block;
+        width: 78%;
+        height: 100%;
+        margin-left: 2%;
+        border: 0;
+        line-height: 0.6rem;
+        font-size: 0.26rem; }
+      header .searchOut .searchIn .closeInput {
+        width: 0.3rem;
+        position: absolute;
+        top: 0.15rem;
+        left: 80.5%;
+        display: none; }
+        header .searchOut .searchIn .closeInput img {
+          width: 100%; }
+      header .searchOut .searchIn .sBtn {
+        width: 0.6rem;
+        height: 0.6rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url(../img/searchWhite.png) no-repeat center center;
+        background-size: 0.3rem 0.3rem;
+        background-color: #292a2f; }
+
+/*# sourceMappingURL=public.css.map */
