@@ -79,5 +79,18 @@ $(function(){
 			$('.language').siblings('img').removeClass('languageUp');
 		}
 	});
-	
+	//出现回到顶部按钮
+	$(window).scroll(function(){
+		if($(window).scrollTop()>0){
+			$('#backToBack').slideDown();
+		}else{
+			$('#backToBack').slideUp();
+		}	
+	});
+	//回到顶部
+	$('#backToBack').click(function(){
+		$('html,body').animate({  
+            scrollTop: 0
+        }, 500); 
+	});
 });
