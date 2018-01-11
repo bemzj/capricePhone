@@ -206,6 +206,21 @@ header{
         }
     }
 }
+.titles{
+    ul li:nth-child(1){
+        font-family: "微软雅黑";
+        text-align: center;
+        color: $black;
+        font-size: 0.36rem;
+        margin-bottom: 0.05rem;
+    }
+    ul li:nth-child(2){
+        font-family: "sj";
+        text-align: center;
+        color: $black;
+        font-size: 0.24rem;
+    }
+}
 .p1{
     word-break: break-all;
     text-overflow: ellipsis;

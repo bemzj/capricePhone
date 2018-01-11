@@ -1,0 +1,41 @@
+$black:#333333;
+$black2:#292a2f;
+#banner{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+#address{
+    padding: 0.6rem 0 0.8rem;
+    .titles{
+        padding-bottom: 0.4rem;
+        border-bottom: 1px solid #d4d4d5;
+    }
+    .address{
+        line-height: 0.45rem;
+        padding: 0.5rem 0rem 0.4rem;
+        border-bottom: 1px solid #d4d4d5;
+        ul li:nth-child(1){
+            
+            margin-bottom: 0.1rem;
+            line-height: 0.3rem;
+            p{
+                font-size: 0.3rem;
+                
+            }
+            span{
+                font-size: 0.26rem;
+                color: #999999;
+            }
+        }
+        ul li{
+            width: 90%;
+            margin: 0 auto;
+            font-size: 0.26rem;
+            a{
+                color: $black2;
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+$black:#333333;
+$black2:#292a2f;
+#banner{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+#shop{
+    padding: 0.6rem 0 0.8rem;
+    .mall{
+        border: 1px solid #d2d2d2;
+        margin-top: 0.4rem;
+        .mallTop{
+            position: relative;
+            .mallFirst{
+                width: 100%;
+            }
+            .mallSecond{
+                width: 22%;
+                position: absolute;
+                bottom: 0;
+                right: 2%;
+                animation: catMove 3s linear infinite;
+                -moz-animation: catMove 3s linear infinite;
+                -webkit-animation: catMove 3s linear infinite;
+                -ms-animation: catMove 3s linear infinite;
+            }
+        }
+        .mallBottom{
+            width: 92%;
+            margin: 0 auto;
+            padding: 0.4rem 0;
+            .mcTitle{
+                font-size: 0.36rem;
+                color: $black2;
+                font-weight: bold;
+                margin-bottom: 0.2rem;
+            }
+            .mallContent{
+                font-size: 0.26rem;
+                color: #999999;
+                line-height: 0.4rem;
+            }
+        }
+    }
+    .mallButton{
+        width: 50%;
+        margin-top: 0.3rem;
+        button {
+            display: block;
+            width: 100%;
+            height: 0.7rem;
+            border: 1px solid $black2;
+            background-color: transparent;
+            text-indent: -0.6rem;
+            background: url(../img/moreArrow.png) no-repeat 75% center;
+            background-size: auto 0.2rem;
+            animation: arrowMove 0.5s linear infinite ;
+            -moz-animation: arrowMove 0.5s linear infinite;
+            -webkit-animation: arrowMove 0.5s linear infinite;
+            -ms-animation: arrowMove 0.5s linear infinite;
+        }
+    }
+}
+@keyframes catMove{
+    0% {right: 2%;}
+    50%{right: 30%;}
+    100% {right: 2%;}
+}
+@-ms-keyframes catMove{
+    0% {right: 2%;}
+    50%{right: 30%;}
+    100% {right: 2%;}
+}
+@-moz-keyframes catMove{
+    0% {right: 2%;}
+    50%{right: 30%;}
+    100% {right: 2%;}
+}
+@-webkit-keyframes catMove{
+    0% {right: 2%;}
+    50%{right: 30%;}
+    100% {right: 2%;}
+}
+@keyframes arrowMove{
+    from {background-position-x: 82%;}
+    to {background-position-x: 92%;}
+}
+@-ms-keyframes arrowMove{
+    from {background-position-x: 82%;}
+    to {background-position-x: 92%;}
+}
+@-moz-keyframes arrowMove{
+    from {background-position-x: 82%;}
+    to {background-position-x: 92%;}
+}
+@-webkit-keyframes arrowMove{
+    from {background-position-x: 82%;}
+    to {background-position-x: 92%;}
+}

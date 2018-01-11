@@ -1,4 +1,3 @@
-@charset "UTF-8";
 #banner .swiper-slide > img {
   width: 100%; }
 #banner .swiper-pagination-bullet {
@@ -6,18 +5,6 @@
 #banner .swiper-pagination-bullet-active {
   border: 1px solid #999999;
   background: transparent; }
-
-.titles ul li:nth-child(1) {
-  font-family: "微软雅黑";
-  text-align: center;
-  color: #333333;
-  font-size: 0.36rem;
-  margin-bottom: 0.05rem; }
-.titles ul li:nth-child(2) {
-  font-family: "sj";
-  text-align: center;
-  color: #333333;
-  font-size: 0.24rem; }
 
 #aboutUs {
   padding: 0.6rem 0 0.6rem; }
@@ -137,6 +124,7 @@
   #show .showMeeting {
     margin: 0.6rem 0; }
   #show .smBox {
+    display: block;
     margin-bottom: 0.2rem; }
     #show .smBox .smLeft {
       width: 50%; }

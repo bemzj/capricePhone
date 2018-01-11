@@ -1,0 +1,31 @@
+#banner {
+  width: 100%; }
+  #banner img {
+    width: 100%; }
+
+#about {
+  padding: 0.6rem 0 0.8rem; }
+  #about .threeBox {
+    padding-bottom: 0.4rem; }
+    #about .threeBox ul li {
+      display: inline-block; }
+      #about .threeBox ul li button {
+        width: 1.6rem;
+        display: block;
+        line-height: 0.7rem;
+        border-radius: 5px;
+        font-size: 0.28rem;
+        background-color: #e9e9e9;
+        color: #333333; }
+      #about .threeBox ul li .liBtnActive {
+        color: white;
+        background-color: #333333; }
+
+#progress .progress {
+  width: 100%; }
+  #progress .progress .pgLeft {
+    width: 29.2%; }
+  #progress .progress .pgRight {
+    width: 70%; }
+
+/*# sourceMappingURL=about.css.map */

@@ -1,11 +1,5 @@
 $(function(){
-	//实例化轮播图
-	var mySwiper = new Swiper('.swiper-container-index', {
-		loop: true,
-		pagination: '.swiper-pagination',
-		paginationClickable :true,
-		autoplayDisableOnInteraction : false
-	});
+	
 	//出现清除按钮
 	$('.searchIn input').on('click',function(){
 		if($(this).val().length>0)

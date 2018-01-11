@@ -1,0 +1,42 @@
+$black:#333333;
+$black2:#292a2f;
+#banner{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+#about{
+    padding: 0.6rem 0 0.8rem;
+    .threeBox{
+        padding-bottom: 0.4rem;
+        
+        ul li{
+            display: inline-block;
+            button{
+                width: 1.6rem;
+                display: block;
+                line-height: 0.7rem;
+                border-radius: 5px;
+                font-size: 0.28rem;
+                background-color: #e9e9e9;
+                color: #333333;
+            }
+            .liBtnActive{
+                color: white;
+                background-color: $black;
+            }
+        }
+    }
+}
+#progress{
+    .progress{
+        width: 100%;
+        .pgLeft{
+            width: 29.2%;
+        }
+        .pgRight{
+            width: 70%;
+        }
+    }
+}

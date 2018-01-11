@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .box {
   width: 93.4%;
   margin: 0 auto; }
@@ -165,6 +166,18 @@ header {
         background: url(../img/searchWhite.png) no-repeat center center;
         background-size: 0.3rem 0.3rem;
         background-color: #292a2f; }
+
+.titles ul li:nth-child(1) {
+  font-family: "微软雅黑";
+  text-align: center;
+  color: #333333;
+  font-size: 0.36rem;
+  margin-bottom: 0.05rem; }
+.titles ul li:nth-child(2) {
+  font-family: "sj";
+  text-align: center;
+  color: #333333;
+  font-size: 0.24rem; }
 
 .p1 {
   word-break: break-all;

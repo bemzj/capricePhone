@@ -1,4 +1,11 @@
 $(function(){
+	//实例化轮播图
+	var mySwiper = new Swiper('.swiper-container-index', {
+		loop: true,
+		pagination: '.swiper-pagination',
+		paginationClickable :true,
+		autoplayDisableOnInteraction : false
+	});
 	//设置滚动区域
 	setTimeout(function(){
 		var mRight = parseInt($('.mcBox').children('a').css('margin-right'));

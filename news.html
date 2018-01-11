@@ -7,13 +7,11 @@
 		<meta content="yes" name="apple-mobile-web-app-capable"/>
 		<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
 		<meta content="telephone=no" name="format-detection"/>
-		<link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
 		<link rel="stylesheet" href="css/reset.min.css" />
 		<link rel="stylesheet" href="css/public.css" />
-		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/news.css" />
 		<script type="text/javascript" src="js/rem.js" ></script>
 		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/swiper-3.4.2.min.js" ></script>
 	</head>
 	<body>
 		<header>
@@ -78,118 +76,23 @@
 				</div>
 			</div>
 		</header>
+		<!--轮播图-->
 		<div id="banner">
-			<div class="swiper-container swiper-container-index">
-			    <div class="swiper-wrapper">
-			        <div class="swiper-slide">
-			        	<img src="img/indexBanner.jpg" alt="诗尼曼"/>
-			        </div>
-			        <div class="swiper-slide">
-			        	<img src="img/indexBanner.jpg" alt="诗尼曼"/>
-			        </div>
-			        <div class="swiper-slide">
-			        	<img src="img/indexBanner.jpg" alt="诗尼曼"/>
-			        </div>
-			        <div class="swiper-slide">
-			        	<img src="img/indexBanner.jpg" alt="诗尼曼"/>
-			        </div>
-			    </div>
-			    <div class="swiper-pagination"></div>
-			</div>
+			<img src="img/newsBanner.jpg" />
 		</div>
-		<div id="aboutUs">
-			<div class="titles">
-				<ul>
-					<li>
-						<p>关于我们</p>
-					</li>
-					<li>
-						<p>About us</p>
-					</li>
-				</ul>
-			</div>
-			<div class="box">
-				<div class="aImgBox">
-					<img src="img/aboutLogo.png" />
-					<div class="aImgBottom">
-						<img src="img/indexAbout.jpg" />
-					</div>
-				</div>
-				<div class="aContent">
-					<p>随想曲贸易有限公司是最有竞争力的供应商之一，专门从事创意礼品。拥有超过150多名员工。我们的主营产品有沙漏、存钱罐、迷你风扇、迷你加湿器和其他工艺品。我们所有的产品都是有库存的，这意味着我们没有起订量的要求，您可以在这里购买任何您想要的产品。我们可以满足您所有的推您可以在这里购买任何您想要的产品。我们可以满足您所有的推......</p>
-				</div>
-				<div class="lookMore">
-					<button>查看更多</button>
-				</div>
-			</div>
-		</div>
-		<div id="produce">
-			<div class="titles">
-				<ul>
-					<li>
-						<p>产品中心</p>
-					</li>
-					<li>
-						<p>Product Center</p>
-					</li>
-				</ul>
-			</div>
-			<div class="moreChocie">
-				<div class="mcBox">
-					<a href="###" class="floatl aHasActive">全部</a>
-					<a href="###" class="floatl">迷你风扇</a>
-					<a href="###" class="floatl">沙漏摆件</a>
-					<a href="###" class="floatl">储物罐</a>
-					<a href="###" class="floatl">创意家居</a>
-					<a href="###" class="floatl">生日礼物</a>
-					<a href="###" class="floatl">长草颜团子</a>
-					<a href="###" class="floatl">冬季保暖</a>
-					<div class="clearl"></div>
-				</div>
-			</div>
-			<div class="box">
-				<a class="floatl">
-					<img src="img/proIndex01.jpg" />
-					<p>白色工作台灯</p>
-				</a>
-				<a class="floatl">
-					<img src="img/proIndex01.jpg" />
-					<p>白色工作台灯</p>
-				</a>
-				<a class="floatl">
-					<img src="img/proIndex01.jpg" />
-					<p>白色工作台灯</p>
-				</a>
-				<a class="floatl">
-					<img src="img/proIndex01.jpg" />
-					<p>白色工作台灯</p>
-				</a>
-				<a class="floatl">
-					<img src="img/proIndex01.jpg" />
-					<p>白色工作台灯</p>
-				</a>
-				<a class="floatl">
-					<img src="img/proIndex01.jpg" />
-					<p>白色工作台灯</p>
-				</a>
-				<div class="clearl"></div>
-			</div>
-			<div class="lookMore">
-				<button>查看更多</button>
-			</div>
-		</div>
-		<div id="show">
-			<div class="titles">
+		<!--关于-->
+		<div id="news">
+			<div class="titles box">
 				<ul>
 					<li>
 						<p>历届展会</p>
 					</li>
 					<li>
-						<p>Previous exhibitions</p>
+						<p>PREVIOUS EXHIBITIONS</p>
 					</li>
 				</ul>
 			</div>
-			<div class="showMeeting">
+			<div class="newsBox">
 				<a class="smBox box">
 					<div class="smLeft floatl">
 						<img src="img/showImg.jpg" />
@@ -239,8 +142,38 @@
 					<div class="clearl"></div>
 				</a>
 			</div>
-			<div class="lookMore">
-				<button>查看更多</button>
+			<div class="twoChocie box">
+				<button class="floatl">上一页</button>
+				<button class="floatl">下一页</button>
+				<div class="clearl"></div>
+				<span></span>
+			</div>
+		</div>
+		<!--详情-->
+		<div id="details" style="display: none;">
+			<div class="head">
+				<a href="###" class="closeDetails"><img src="img/closeDetails.png"/></a>
+			</div>
+			<div class="contentBox box">
+				<div class="cTitle">
+					<p>随想曲贸易有限公司上海国际展会现场随想曲贸易有限公司上海国际展会现场</p>
+				</div>
+				<div class="cTime">
+					<p>2017-12-30</p>
+				</div>
+				<div class="cContent">
+					<p>随想曲贸易有限公司于2014年成立于中国广东汕头，是一家专业的创意礼品品牌商，也是中国创意礼品行业最具有竞争力的供应商之一。</p>
+					<p>随想曲贸易有限公司于2014年成立于中国广东汕头，是一家专业的创意礼品品牌商，也是中国创意礼品行业最具有竞争力的供应商之一。</p>
+					<img src="img/newsDetails.jpg" />
+					<p>随想曲贸易有限公司于2014年成立于中国广东汕头，是一家专业的创意礼品品牌商，也是中国创意礼品行业最具有竞争力的供应商之一。</p>
+					<p>随想曲贸易有限公司于2014年成立于中国广东汕头，是一家专业的创意礼品品牌商，也是中国创意礼品行业最具有竞争力的供应商之一。</p>
+				</div>
+				<div class="twoChocie">
+					<button class="floatl">上一篇</button>
+					<button class="floatl">下一篇</button>
+					<div class="clearl"></div>
+					<span></span>
+				</div>
 			</div>
 		</div>
 		<!--回到顶部-->
@@ -264,5 +197,5 @@
 		</footer>
 	</body>
 	<script type="text/javascript" src="js/public.js" ></script>
-	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript" src="js/news.js" ></script>
 </html>

@@ -1,0 +1,101 @@
+#banner {
+  width: 100%; }
+  #banner img {
+    width: 100%; }
+
+#news {
+  padding: 0.6rem 0 0.8rem; }
+  #news .titles {
+    padding-bottom: 0.4rem; }
+  #news .smBox {
+    display: block;
+    margin-bottom: 0.2rem; }
+    #news .smBox .smLeft {
+      width: 50%; }
+      #news .smBox .smLeft img {
+        width: 100%; }
+    #news .smBox .smRight {
+      width: 50%;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      display: -webkit-flex;
+      -webkit-align-items: center;
+      -webkit-justify-content: center;
+      -webkit-flex-direction: column; }
+      #news .smBox .smRight .smTitle {
+        line-height: 0.44rem;
+        font-size: 0.28rem;
+        width: 90%;
+        margin: 0 auto; }
+      #news .smBox .smRight .smTime {
+        font-size: 0.24rem;
+        width: 90%;
+        margin: 0 auto;
+        color: #999999;
+        margin-top: 0.15rem; }
+
+.twoChocie {
+  position: relative;
+  padding-top: 0.15rem; }
+  .twoChocie button {
+    width: 50%;
+    display: block;
+    line-height: 0.7rem;
+    background-color: #f0f0f0;
+    color: #949494;
+    font-size: 0.28rem; }
+  .twoChocie span {
+    height: 0.7rem;
+    position: absolute;
+    left: 50%;
+    top: 0.15rem;
+    display: block;
+    border-right: 1px solid #e1e1e1; }
+
+#details {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 88;
+  overflow-y: scroll; }
+  #details .head {
+    width: 100%;
+    height: 0.9rem;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px rgba(51, 51, 51, 0.2); }
+    #details .head a {
+      display: block;
+      width: 0.45rem;
+      margin: 0 auto;
+      padding-top: 0.225rem; }
+      #details .head a img {
+        width: 100%; }
+  #details .contentBox {
+    width: 95%; }
+    #details .contentBox .cTitle {
+      font-size: 0.32rem;
+      line-height: 0.5rem;
+      padding: 0.4rem 0 0.25rem; }
+    #details .contentBox .cTime {
+      font-size: 0.24rem;
+      color: #878787; }
+    #details .contentBox .cContent {
+      font-size: 0.26rem;
+      color: #999999;
+      line-height: 0.5rem; }
+      #details .contentBox .cContent p {
+        padding: 0.2rem 0; }
+      #details .contentBox .cContent img {
+        width: 100%;
+        padding: 0.2rem 0; }
+    #details .contentBox .twoChocie {
+      margin-top: 0.2rem;
+      padding-bottom: 0.6rem; }
+
+/*# sourceMappingURL=news.css.map */
