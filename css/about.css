@@ -4,7 +4,7 @@
     width: 100%; }
 
 #about {
-  padding: 0.6rem 0 0.8rem; }
+  padding: 0.6rem 0 0; }
   #about .threeBox {
     padding-bottom: 0.4rem; }
     #about .threeBox ul li {
@@ -21,11 +21,112 @@
         color: white;
         background-color: #333333; }
 
-#progress .progress {
-  width: 100%; }
-  #progress .progress .pgLeft {
-    width: 29.2%; }
-  #progress .progress .pgRight {
-    width: 70%; }
+#progress {
+  padding-bottom: 0.8rem; }
+  #progress .progress {
+    width: 100%;
+    position: relative;
+    padding: 0.3rem 0;
+    border-top: 1px dashed #eaeaea; }
+    #progress .progress .pgLeft {
+      position: absolute;
+      top: 0rem;
+      left: 0;
+      width: 36%;
+      height: 100%;
+      border-right: 1px solid #dcdcdc; }
+      #progress .progress .pgLeft .pgTime {
+        font-family: helvetica;
+        font-size: 0.32rem;
+        text-align: right;
+        margin-top: 0.4rem;
+        width: 92%; }
+      #progress .progress .pgLeft .pgCompany {
+        font-family: helvetica;
+        font-size: 0.24rem;
+        text-align: right;
+        color: #666666;
+        width: 92%; }
+    #progress .progress .pgRight {
+      width: 64%;
+      margin-left: 36%; }
+      #progress .progress .pgRight p {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 0.24rem;
+        color: #666666;
+        line-height: 0.5rem; }
+      #progress .progress .pgRight img {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0.2rem 0; }
+    #progress .progress .circle {
+      width: 11px;
+      height: 11px;
+      border: 1px solid #333333;
+      border-radius: 50%;
+      display: flex;
+      position: absolute;
+      top: 0.45rem;
+      left: 36%;
+      margin-left: -6px; }
+      #progress .progress .circle > div {
+        width: 7px;
+        height: 7px;
+        margin: 2px 0 0 2px;
+        background-color: #333333;
+        border-radius: 50%; }
+
+#honor {
+  padding: 0.2rem; }
+  #honor .honorTop {
+    border-top: 1px dashed #eaeaea;
+    border-bottom: 1px dashed #eaeaea;
+    padding-bottom: 0.3rem; }
+  #honor .honorTitle {
+    font-size: 0.36rem;
+    color: #666666;
+    margin-top: 0.2rem;
+    line-height: 0.8rem;
+    font-weight: bold; }
+  #honor .honorScore .floatl {
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    padding: 0 0.1rem;
+    background-color: #f5f5f5;
+    margin-bottom: 0.1rem;
+    margin-right: 0.1rem; }
+  #honor .honorBottom {
+    padding: 0.4rem 0; }
+  #honor .hbBox:nth-child(2n+1) {
+    margin-right: 4%; }
+  #honor .hbBox {
+    width: 48%;
+    background-color: #fbfbfb;
+    margin-bottom: 0.2rem; }
+    #honor .hbBox .hbBoxIn {
+      width: 100%;
+      height: 100%;
+      padding: 0.25rem 0 0.1rem;
+      border: 1px solid #eeeeee; }
+    #honor .hbBox .hbImg {
+      width: 80%;
+      margin: 0 auto; }
+      #honor .hbBox .hbImg img {
+        width: 100%; }
+    #honor .hbBox .hbTitle {
+      height: 0.8rem;
+      width: 80%;
+      margin: 0.1rem auto;
+      font-size: 0.24rem;
+      line-height: 0.4rem;
+      color: #333333; }
+    #honor .hbBox .hbTime {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 0.24rem;
+      line-height: 0.5rem;
+      color: #999999;
+      border-top: 1px dashed #eaeaea; }
 
 /*# sourceMappingURL=about.css.map */

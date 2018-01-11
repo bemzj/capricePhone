@@ -1,0 +1,52 @@
+#banner {
+  width: 100%; }
+  #banner img {
+    width: 100%; }
+
+#produce {
+  width: 100%;
+  padding: 0.6rem 0 0.8rem; }
+  #produce .moreChocie {
+    width: 96.7%;
+    margin-left: 3.3%;
+    overflow-x: scroll;
+    padding: 0.6rem 0 0.4rem; }
+  #produce .mcBox a {
+    display: block;
+    width: 2.0rem;
+    font-size: 0.28rem;
+    line-height: 0.7rem;
+    text-align: center;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    color: #333333;
+    margin-right: 0.2rem; }
+  #produce .mcBox a:nth-last-child(2) {
+    margin-right: 0; }
+  #produce .mcBox .aHasActive {
+    background-color: #333333;
+    color: white; }
+  #produce .box .floatl {
+    width: 49%;
+    display: block;
+    margin-bottom: 0.12rem;
+    height: 2.15rem;
+    overflow: hidden;
+    position: relative; }
+    #produce .box .floatl img {
+      width: 100%; }
+    #produce .box .floatl p {
+      font-size: 0.26rem;
+      line-height: 0.6rem;
+      text-align: left;
+      width: 100%;
+      padding: 0% 5%;
+      position: absolute;
+      bottom: 0;
+      color: white;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.3); }
+  #produce .box .floatl:nth-child(2n+1) {
+    margin-right: 2%; }
+
+/*# sourceMappingURL=produce.css.map */
