@@ -90,7 +90,7 @@
     line-height: 0.8rem;
     font-weight: bold; }
   #honor .honorScore .floatl {
-    font-size: 0.24rem;
+    font-size: 0.2rem;
     line-height: 0.4rem;
     padding: 0 0.1rem;
     background-color: #f5f5f5;
@@ -128,5 +128,111 @@
       line-height: 0.5rem;
       color: #999999;
       border-top: 1px dashed #eaeaea; }
+
+#information .titleLeft {
+  width: 100%;
+  padding-bottom: 0.4rem; }
+  #information .titleLeft .tltc {
+    width: 77.47%;
+    padding-left: 17.6%;
+    position: relative; }
+    #information .titleLeft .tltc .tlTitle {
+      font-size: 0.32rem;
+      color: #333333; }
+      #information .titleLeft .tltc .tlTitle p {
+        padding: 0.13rem 0 0.2rem; }
+    #information .titleLeft .tltc .whos p {
+      padding: 0.5rem 0 0.2rem; }
+    #information .titleLeft .tltc .tlContent {
+      width: 100%;
+      font-size: 0.26rem;
+      line-height: 0.5rem;
+      color: #999999; }
+      #information .titleLeft .tltc .tlContent p {
+        padding: 0.2rem 0; }
+      #information .titleLeft .tltc .tlContent img {
+        width: 100%;
+        padding: 0.2rem 0; }
+    #information .titleLeft .tltc .tlList {
+      width: 100%;
+      padding-top: 0.3rem; }
+      #information .titleLeft .tltc .tlList .tlBox {
+        width: 100%;
+        position: relative;
+        padding: 0.2rem 0;
+        margin-bottom: 0.3rem;
+        background-color: #f4f4f4; }
+        #information .titleLeft .tltc .tlList .tlBox .tlbLeft {
+          width: 40%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-size: 0.26rem;
+          font-weight: bold;
+          text-align: center;
+          line-height: 0.5rem;
+          color: #333333;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          display: -webkit-flex;
+          -webkit-align-items: center;
+          -webkit-justify-content: center;
+          -webkit-flex-direction: column; }
+          #information .titleLeft .tltc .tlList .tlBox .tlbLeft img {
+            width: 40%;
+            display: block;
+            margin: 0 auto; }
+        #information .titleLeft .tltc .tlList .tlBox .tlbRight {
+          margin-left: 40%;
+          width: 55%;
+          line-height: 0.5rem;
+          font-size: 0.24rem;
+          color: #999999; }
+        #information .titleLeft .tltc .tlList .tlBox .tlbl {
+          left: 60%; }
+        #information .titleLeft .tltc .tlList .tlBox .tlbr {
+          margin-left: 5%; }
+    #information .titleLeft .tltc .tlImg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 17%; }
+      #information .titleLeft .tltc .tlImg > img {
+        width: 100%; }
+#information .titleRight {
+  width: 100%;
+  padding-bottom: 0.4rem; }
+  #information .titleRight .trtc {
+    width: 77.47%;
+    margin-left: 4.94%;
+    padding-right: 17.6%;
+    position: relative; }
+    #information .titleRight .trtc .trTitle {
+      font-size: 0.32rem;
+      color: #333333;
+      text-align: right; }
+      #information .titleRight .trtc .trTitle p {
+        padding: 0.13rem 0 0.2rem; }
+    #information .titleRight .trtc .trContent {
+      width: 100%;
+      font-size: 0.26rem;
+      line-height: 0.5rem;
+      color: #999999;
+      text-align: right; }
+      #information .titleRight .trtc .trContent p {
+        padding: 0.2rem 0; }
+      #information .titleRight .trtc .trContent img {
+        width: 100%;
+        padding: 0.2rem 0; }
+    #information .titleRight .trtc .trImg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 17%; }
+      #information .titleRight .trtc .trImg > img {
+        width: 100%; }
 
 /*# sourceMappingURL=about.css.map */

@@ -110,7 +110,7 @@ $black2:#292a2f;
     }
     .honorScore{
         .floatl{
-            font-size: 0.24rem;
+            font-size: 0.2rem;
             line-height: 0.4rem;
             padding: 0 0.1rem;
             background-color: #f5f5f5;
@@ -160,5 +160,141 @@ $black2:#292a2f;
             color: #999999;
             border-top: 1px dashed #eaeaea;
         }
+    }
+}
+#information{
+    .titleLeft{
+        width: 100%;
+        padding-bottom: 0.4rem;
+        .tltc{
+            width: 77.47%;
+            padding-left: 17.6%;
+            position: relative;
+            .tlTitle{
+                font-size: 0.32rem;
+                color: $black;
+                p{
+                    padding: 0.13rem 0 0.2rem;
+                }
+                
+            }
+            .whos p {
+                padding: 0.5rem 0 0.2rem;
+            }
+            .tlContent{
+                width: 100%;
+                font-size: 0.26rem;
+                line-height: 0.5rem;
+                color: #999999;
+                p{
+                    padding: 0.2rem 0;
+                }
+                img{
+                    width: 100%;
+                    padding: 0.2rem 0;
+                }
+            }
+            .tlList{
+                width: 100%;
+                padding-top: 0.3rem; 
+                .tlBox{
+                    width: 100%;
+                    position: relative;
+                    padding: 0.2rem 0;
+                    margin-bottom: 0.3rem;
+                     background-color: #f4f4f4;
+                    .tlbLeft{
+                        width: 40%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        font-size: 0.26rem;
+                        font-weight: bold;
+                        text-align: center;
+                        line-height: 0.5rem;
+                        color: $black;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        display: -webkit-flex;
+                        -webkit-align-items: center;
+                        -webkit-justify-content: center;
+                        -webkit-flex-direction: column;
+                        img{
+                            width: 40%;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        
+                    }
+                    .tlbRight{
+                        margin-left: 40%;
+                        width: 55%;
+                        line-height: 0.5rem;
+                        font-size: 0.24rem;
+                        color: #999999;
+                    }
+                    .tlbl{
+                        left:60%;
+                    }
+                    .tlbr{
+                        margin-left: 5%;
+                    }
+                }
+            }
+            .tlImg{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 17%;
+                >img{
+                    width: 100%;
+                }
+            }
+        }     
+    }
+    .titleRight{
+        width: 100%;
+        padding-bottom: 0.4rem;
+        .trtc{
+            width: 77.47%;
+            margin-left: 4.94%;
+            padding-right: 17.6%;
+            position: relative;
+            .trTitle{
+                font-size: 0.32rem;
+                color: $black;
+                text-align: right;
+                p{
+                    padding: 0.13rem 0 0.2rem;
+                }
+                
+            }
+            .trContent{
+                width: 100%;
+                font-size: 0.26rem;
+                line-height: 0.5rem;
+                color: #999999;
+                text-align: right;
+                p{
+                    padding: 0.2rem 0;
+                }
+                img{
+                    width: 100%;
+                    padding: 0.2rem 0;
+                }
+            }
+            .trImg{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 17%;
+                >img{
+                    width: 100%;
+                }
+            }
+        }     
     }
 }
