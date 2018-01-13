@@ -22,7 +22,8 @@
         background-color: #333333; }
 
 #progress {
-  padding-bottom: 0.8rem; }
+  padding-bottom: 0.8rem;
+  overflow-x: hidden; }
   #progress .progress {
     width: 100%;
     position: relative;
@@ -78,6 +79,7 @@
         border-radius: 50%; }
 
 #honor {
+  overflow-x: hidden;
   padding: 0.2rem; }
   #honor .honorTop {
     border-top: 1px dashed #eaeaea;
@@ -90,8 +92,8 @@
     line-height: 0.8rem;
     font-weight: bold; }
   #honor .honorScore .floatl {
-    font-size: 0.2rem;
-    line-height: 0.4rem;
+    font-size: 0.22rem;
+    line-height: 0.5rem;
     padding: 0 0.1rem;
     background-color: #f5f5f5;
     margin-bottom: 0.1rem;
@@ -130,6 +132,7 @@
       border-top: 1px dashed #eaeaea; }
 
 #information {
+  overflow-x: hidden;
   padding-bottom: 0.2rem; }
   #information .titleLeft {
     width: 100%;

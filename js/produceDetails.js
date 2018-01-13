@@ -10,12 +10,12 @@ $(function(){
 	//详情
 	$('.detailIndex').on('click',function(){
 		$('#paramBox').hide();
-		$('#banner').show().addClass('animated bounceInUp');
-		$('#produce').show().addClass('animated bounceInUp');
+		$('#banner').show();
+		$('#produce').show();
 	});
 	//参数
 	$('.param').on('click',function(){
-		$('#paramBox').show().addClass('animated bounceInUp');
+		$('#paramBox').show();
 		$('#banner').hide();
 		$('#produce').hide();
 	});

@@ -29,7 +29,8 @@
         line-height: 0.44rem;
         font-size: 0.28rem;
         width: 90%;
-        margin: 0 auto; }
+        margin: 0 auto;
+        color: #333333; }
       #news .smBox .smRight .smTime {
         font-size: 0.24rem;
         width: 90%;
@@ -54,48 +55,5 @@
     top: 0.15rem;
     display: block;
     border-right: 1px solid #e1e1e1; }
-
-#details {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  z-index: 88;
-  overflow-y: scroll; }
-  #details .head {
-    width: 100%;
-    height: 0.9rem;
-    background-color: white;
-    box-shadow: 0px 0px 2px 2px rgba(51, 51, 51, 0.2); }
-    #details .head a {
-      display: block;
-      width: 0.45rem;
-      margin: 0 auto;
-      padding-top: 0.225rem; }
-      #details .head a img {
-        width: 100%; }
-  #details .contentBox {
-    width: 95%; }
-    #details .contentBox .cTitle {
-      font-size: 0.32rem;
-      line-height: 0.5rem;
-      padding: 0.4rem 0 0.25rem; }
-    #details .contentBox .cTime {
-      font-size: 0.24rem;
-      color: #878787; }
-    #details .contentBox .cContent {
-      font-size: 0.26rem;
-      color: #999999;
-      line-height: 0.5rem; }
-      #details .contentBox .cContent p {
-        padding: 0.2rem 0; }
-      #details .contentBox .cContent img {
-        width: 100%;
-        padding: 0.2rem 0; }
-    #details .contentBox .twoChocie {
-      margin-top: 0.2rem;
-      padding-bottom: 0.6rem; }
 
 /*# sourceMappingURL=news.css.map */
