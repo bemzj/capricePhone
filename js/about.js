@@ -30,4 +30,16 @@ $(function(){
 				break;
 		}
 	});
+	$('.hbImg').on('click',function(){
+		$('#popWindow').fadeIn(500);
+		$('#popWindow img').attr('src',$(this).find('img').attr('src'));
+		$('#popWindow div').each(function() {
+			new RTP.PinchZoom($(this), {});
+		});
+	});
+	
+	$('#popWindow').on('click',function(){
+		$(this).fadeOut(500);
+	});
+		
 });

@@ -125,7 +125,8 @@
   height: 0.9rem; }
 
 #paramBox {
-  padding-bottom: 0.8rem; }
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem; }
   #paramBox .pbtr {
     padding: 0.15rem 0;
     line-height: 0.5rem;

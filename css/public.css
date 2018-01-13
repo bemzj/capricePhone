@@ -36,10 +36,10 @@ header {
     header nav .moreNav {
       position: absolute;
       display: block;
-      top: 0.25rem;
+      top: 0.3rem;
       left: 0;
-      height: 0.4rem;
-      width: 0.6rem; }
+      height: 0.3rem;
+      width: 0.4rem; }
       header nav .moreNav > img {
         width: 100%;
         position: absolute;
@@ -143,7 +143,7 @@ header {
       position: relative; }
       header .searchOut .searchIn input {
         display: block;
-        width: 78%;
+        width: 72%;
         height: 100%;
         margin-left: 2%;
         border: 0;
@@ -153,19 +153,21 @@ header {
         width: 0.3rem;
         position: absolute;
         top: 0.15rem;
-        left: 80.5%;
+        left: 76.5%;
         display: none; }
         header .searchOut .searchIn .closeInput img {
           width: 100%; }
       header .searchOut .searchIn .sBtn {
-        width: 0.6rem;
+        width: 0.9rem;
         height: 0.6rem;
         position: absolute;
         top: 0;
         right: 0;
-        background: url(../img/searchWhite.png) no-repeat center center;
-        background-size: 0.3rem 0.3rem;
-        background-color: #292a2f; }
+        color: white;
+        font-size: 0.26rem;
+        background-color: #292a2f;
+        line-height: 0.6rem;
+        text-align: center; }
 
 .titles ul li:nth-child(1) {
   font-family: "微软雅黑";
@@ -236,7 +238,7 @@ footer {
   bottom: 0.3rem;
   display: none;
   border-radius: 50%;
-  box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.2); }
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.1); }
   #backToBack img {
     width: 100%; }
 

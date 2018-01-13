@@ -58,12 +58,8 @@ $black2:#292a2f;
             border: 1px solid $black2;
             background-color: transparent;
             text-indent: -0.6rem;
-            background: url(../img/moreArrow.png) no-repeat 75% center;
+            background: url(../img/moreArrow.png) no-repeat 87% center;
             background-size: auto 0.2rem;
-            animation: arrowMove 0.5s linear infinite ;
-            -moz-animation: arrowMove 0.5s linear infinite;
-            -webkit-animation: arrowMove 0.5s linear infinite;
-            -ms-animation: arrowMove 0.5s linear infinite;
         }
     }
 }
@@ -86,20 +82,4 @@ $black2:#292a2f;
     0% {right: 2%;}
     50%{right: 30%;}
     100% {right: 2%;}
-}
-@keyframes arrowMove{
-    from {background-position-x: 82%;}
-    to {background-position-x: 92%;}
-}
-@-ms-keyframes arrowMove{
-    from {background-position-x: 82%;}
-    to {background-position-x: 92%;}
-}
-@-moz-keyframes arrowMove{
-    from {background-position-x: 82%;}
-    to {background-position-x: 92%;}
-}
-@-webkit-keyframes arrowMove{
-    from {background-position-x: 82%;}
-    to {background-position-x: 92%;}
 }

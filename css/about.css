@@ -253,4 +253,26 @@
         #information .titleRight .trtc .trImg > img {
           width: 100%; }
 
+#popWindow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column; }
+  #popWindow > div {
+    width: 75%;
+    margin: 0 auto; }
+    #popWindow > div img {
+      width: 100%; }
+
 /*# sourceMappingURL=about.css.map */
