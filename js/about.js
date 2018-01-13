@@ -7,5 +7,27 @@ $(function(){
 			});
 		})();
 	};
-	
+	$('.threeBox ul li button').on('click',function(){
+		var index =parseInt($(this).attr('index'));
+		$('.threeBox ul li button').removeClass('liBtnActive');
+		$(this).addClass('liBtnActive');		
+		switch(index){
+			case 1:
+				
+				$('#information').show().addClass('animated bounceInUp');
+				$('#progress').hide();
+				$('#honor').hide();
+				break;
+			case 2:
+				$('#progress').show().addClass('animated bounceInUp');
+				$('#information').hide();
+				$('#honor').hide();
+				break;
+			case 3:
+				$('#honor').show().addClass('animated bounceInUp');
+				$('#progress').hide();
+				$('#information').hide();
+				break;
+		}
+	});
 });

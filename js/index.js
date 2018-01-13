@@ -4,7 +4,8 @@ $(function(){
 		loop: true,
 		pagination: '.swiper-pagination',
 		paginationClickable :true,
-		autoplayDisableOnInteraction : false
+		autoplayDisableOnInteraction : false,
+		autoplay:5000
 	});
 	//设置滚动区域
 	setTimeout(function(){

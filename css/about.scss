@@ -163,6 +163,7 @@ $black2:#292a2f;
     }
 }
 #information{
+    padding-bottom: 0.2rem;
     .titleLeft{
         width: 100%;
         padding-bottom: 0.4rem;
@@ -192,6 +193,23 @@ $black2:#292a2f;
                 img{
                     width: 100%;
                     padding: 0.2rem 0;
+                }
+            }
+            .tlptimg{
+                width: 100%;                
+                line-height: 0.5rem;  
+                margin-top: 0.2rem; 
+                img{
+                    width: 100%;
+                    padding-bottom: 0.1rem;
+                }            
+                .tlpTips{
+                    font-size: 0.28rem;
+                    color: $black;
+                }
+                .tlpContent{
+                    font-size: 0.26rem;
+                    color: #999999;
                 }
             }
             .tlList{
