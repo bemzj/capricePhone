@@ -22,8 +22,18 @@
       position: absolute;
       left: 0.4rem;
       width: 125.5%; }
-      #aboutUs .aImgBox .aImgBottom > img {
+      #aboutUs .aImgBox .aImgBottom .swiper-slide > img {
         width: 100%; }
+      #aboutUs .aImgBox .aImgBottom .swiper-pagination-bullet {
+        background-color: white;
+        opacity: 1; }
+      #aboutUs .aImgBox .aImgBottom .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #66676a; }
+      #aboutUs .aImgBox .aImgBottom .swiper-container-horizontal > .swiper-pagination-bullets, #aboutUs .aImgBox .aImgBottom .swiper-pagination-custom, #aboutUs .aImgBox .aImgBottom .swiper-pagination-fraction {
+        bottom: 0px;
+        left: 0;
+        width: 30%; }
   #aboutUs .aContent {
     margin-top: 1.1rem;
     margin-bottom: 0.3rem; }

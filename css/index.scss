@@ -32,8 +32,23 @@ $black2:#292a2f;
             position: absolute;
             left: 0.4rem;
             width: 125.5%;
-            >img{
-                width: 100%;
+            .swiper-slide{
+                >img{
+                    width: 100%;
+                }
+            }
+            .swiper-pagination-bullet {
+                background-color: white;
+                opacity: 1;
+            }
+            .swiper-pagination-bullet-active {
+                opacity: 1;
+                background: #66676a;
+            }
+            .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+                bottom: 0px;
+                left: 0;
+                width: 30%;
             }
         }
     }

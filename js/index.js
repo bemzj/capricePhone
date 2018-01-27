@@ -22,4 +22,12 @@ $(function(){
 	setTimeout(function(){
 		$('.smBox .smRight').height($('.smBox .smLeft').height());
 	},100);
+	//实例化轮播图
+	var mySwiper = new Swiper('.swiper-container-about', {
+		loop: true,
+		pagination: '.swiper-pagination',
+		paginationClickable :true,
+		autoplayDisableOnInteraction : false,
+//		autoplay:5000
+	});
 });
